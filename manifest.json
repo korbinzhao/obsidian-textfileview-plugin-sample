@@ -1,0 +1,11 @@
+{
+	"id": "example",
+	"name": "Example Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Example Plugin",
+	"author": "Korbin Zhao",
+	"authorUrl": "https://korbinzhao.deno.dev/",
+	"fundingUrl": "https://afdian.net/a/wantian",
+	"isDesktopOnly": false
+}

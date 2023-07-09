@@ -1,0 +1,34 @@
+{
+	"name": "obsidian-textfileview-plugin-sample",
+	"version": "1.0.0",
+	"description": "A sample of custom Obsidian TextFileView plugin.",
+	"main": "main.js",
+	"scripts": {
+		"start": "yarn run dev",
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production && gulp",
+		"gulp": "gulp",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [],
+	"author": "",
+	"devDependencies": {
+		"@types/node": "16.11.6",
+		"@types/react": "18.2.14",
+		"@types/react-dom": "18.2.6",
+		"@typescript-eslint/eslint-plugin": "5.29.0",
+		"@typescript-eslint/parser": "5.29.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "0.17.3",
+		"esbuild-sass-plugin": "2.10.0",
+		"gulp": "4.0.2",
+		"obsidian": "latest",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"sass": "1.63.6",
+		"typescript": "4.9.4"
+	},
+	"dependencies": {
+		"antd": "5.6.4"
+	}
+}
